@@ -1,0 +1,275 @@
+
+
+<!--Jai shree ram-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudio Dashboard</title>
+    
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app-shell">
+        <aside class="sidebar">
+            <!--ye brand ka hain k ye wala top pe hoga -->
+            <a class="brand" href="#">
+                <span class="brand-mark">C</span>loud<span>io</span>
+            </a>
+            <!--ye nav list ye is brand ke neeche hoga thoda  gap hoga beech me lekin iske just neeche hoga 
+            inka-->
+            <nav class="nav-list">
+                <a class="nav-item" href="#">
+                    <span class="nav-icon">🏠</span>
+                    Home
+                </a>
+                <a class="nav-item" href="#files">
+                    <span class="nav-icon">🗂️</span>
+                    My Files
+                </a>
+                <a class="nav-item" href="#recent">
+                    <span class="nav-icon">🕰️</span>
+                    Recent Files
+                </a>
+                <a class="nav-item" href="#shared">
+                    <span class="nav-icon">♻️</span>
+                    Shared Files
+                <a class="nav-item" href="#request">
+                    <span class="nav-icon">🈸</span>
+                    File request
+                </a>
+                <a class="nav-item" href="#trash">
+                    <span class="nav-icon">🗑️</span>
+                    Trash
+                </a>
+
+
+
+
+                <!--ye iske neeche hoga ek hi jagah pe hoga ek hi line
+                pe hoga esa ok  ye wala part neeche hoga esa ok -->
+
+
+
+            </nav>
+            <div class="sidebar-bottom">
+                <div class="upload-box">
+                    <span>Upload Files</span>
+                    <span>↥</span>
+                    <span>Upload folder</span>
+                    <span>↥</span>
+                    <span>Shared files</span>
+                    <span>↗</span>
+                    <span>More <small>⌄</small></span>
+                    <span>⋯</span>
+                </div>
+                <!--ye button hain inke neeche ye buton hoga create  new wala -->
+                <button class="create-button">
+                    Create New
+                    <span>＋</span>
+                </button>
+            </div>
+        </aside>
+        <section class="workspace">
+            <header class="topbar">
+                <label class="search">
+                    <span>⌕</span>
+                    <input type="search" placeholder="Search">
+                </label>
+                <div class="top-actions">
+                    <button aria-label="Notifications">🔁</button>
+                    <button aria-label="Settings">⚙️</button>
+                    <span class="user-name">Ganesh Bhardwaj</span>
+                    <span class="avatar">GB</span>
+                </div>
+            </header>
+            <div class="main-content">
+                <div class="content-column">
+                    <section class="section-block">
+                        <div class="section-heading">
+                            <h1>Recently Used</h1>
+                            <div class="view-toggle">
+                                <button class="selected">▦</button>
+                                <button>☷</button>
+                            </div>
+                        </div>
+                        <div class="folder-grid">
+                            <article class="folder-card">
+                                <div class="folder-top">
+                                    <span class="folder-icon">▰</span>
+                                    <span>•••</span>
+                                </div>
+                                <h3>App Project</h3>
+                                <p>Created 02.02.2026</p>
+                                <div class="people">
+                                    <span class="mini-avatar orange">A</span>
+                                    <span class="mini-avatar dark">V</span>
+                                </div>
+                            </article>
+                            <article class="folder-card">
+                                <div class="folder-top">
+                                    <span class="folder-icon">▰</span>
+                                    <span>•••</span>
+                                </div>
+                                <h3>Project: Fitbit</h3>
+                                <p>Created 26.02.2026</p>
+                                <div class="people">
+                                    <span class="mini-avatar pink">L</span>
+                                    <span class="mini-avatar blue">M</span>
+                                    <span class="mini-avatar">+3</span>
+                                </div>
+                            </article>
+                            <article class="folder-card">
+                                <div class="folder-top">
+                                    <span class="folder-icon">▰</span>
+                                    <span>•••</span>
+                                </div>
+                                <h3>Client Documents</h3>
+                                <p>Created 04.02.2026</p>
+                                <div class="people">
+                                    <span class="mini-avatar orange">A</span>
+                                    <span class="mini-avatar blue">D</span>
+                                    <span class="mini-avatar">+4</span>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                    <section class="section-block" id="recent">
+                        <div class="section-heading">
+                            <h2>Recent Files</h2>
+                            <a href="#files">View All</a>
+                        </div>
+                        <div class="file-table">
+                            <div class="file-head">
+                                <span>Name ↑</span>
+                                <span>Owners</span>
+                                <span>Last Modified</span>
+                                <span></span>
+                            </div>
+                            <div class="file-row">
+                                <span class="file-name">
+                                    <b class="file-icon yellow">📁</b>
+                                     Travel landing page
+                                </span>
+                                <span>5 members</span>
+                                <span>sep 21, 2026</span>
+                                <span>•••</span>
+                            </div>
+                            <div class="file-row">
+                                <span class="file-name">
+                                    <b class="file-icon green">📁</b>
+                                    Type Photos
+                                </span>
+                                <span>12 members</span>
+                                <span>sep 21, 2026,</span>
+                                <span>•••</span>
+                            </div>
+                            <div class="file-row">
+                                <span class="file-name">
+                                    <b class="file-icon red">📁</b>
+                                    Dashboard Structure
+                                </span>
+                                <span>13 members</span>
+                                <span>sep 21, 2026</span>
+                                <span>•••</span>
+                            </div>
+                            <div class="file-row">
+                                <span class="file-name">
+                                    <b class="file-icon orange">📁</b>
+                                    Character Illustration
+                                </span>
+                                <span>3 members</span>
+                                <span>sep 21, 2026</span>
+                                <span>•••</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section-block" id="shared">
+                        <div class="section-heading">
+                            <h2>Share with me</h2>
+                            <a href="#shared">View All</a>
+                        </div>
+                        <div class="shared-grid">
+                            <article>
+                                <span class="folder-icon">📜</span>
+                                <strong>Landing Page</strong>
+                                <small>12 files</small>
+                                <span class="shared-avatars">𓄲</span>
+                            </article>
+                            <article>
+                                <span class="folder-icon">📜</span>
+                                <strong>Illustration Pack</strong>
+                                <small>24 files</small>
+                                <span class="shared-avatars">𓄲</span>
+                            </article>
+                            <article>
+                                <span class="folder-icon">📜</span>
+                                <strong>CV Design</strong>
+                                <small>6 files</small>
+                                <span class="shared-avatars">𓄲</span>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+                <aside class="right-panel">
+                    <section class="storage">
+                        <h2>Storage</h2>
+                        <div class="storage-ring">
+                            <div>
+                                <strong>85%</strong>
+                                <span>Used</span>
+                            </div>
+                           
+                        </div>
+                        <p class="storage-limit">420.2 GB of 500 GB used</p>
+                        <div class="storage-list">
+                            <div>
+                                <span>
+                                    <i class="dot docs"></i>
+                                    Documents
+                                    <small>120 files</small>
+                                </span>
+                                <b>200 GB</b>
+                            </div>
+                            <div>
+                                <span>
+                                    <i class="dot videos"></i>
+                                    Videos
+                                    <small>64 files</small>
+                                </span>
+                                <b>125 GB</b>
+                            </div>
+                            <div>
+                                <span>
+                                    <i class="dot images"></i>
+                                    Images
+                                    <small>74 files</small>
+                                </span>
+                                <b>75 GB</b>
+                            </div>
+                            <div>
+                                <span>
+                                    <i class="dot others"></i>
+                                    Others
+                                    <small>38 files</small>
+                                </span>
+                                <b>50 GB</b>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="upgrade-card">
+                        <div class="rocket">🚀</div>
+                        <h3>Buy more space now!</h3>
+                        <p>Upload as much as you want.</p>
+                        <button>Upgrade Account!</button>
+                    </section>
+                </aside>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
